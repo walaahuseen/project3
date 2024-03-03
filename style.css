@@ -1,0 +1,121 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('36291813c8c215017aa2b26e8b9a1b82.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+}
+
+.container {
+    width: 350px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid #ff66c4;
+    font-size: 1em;
+    outline: none;
+    transition: border-bottom-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-bottom-color: #ff66c4;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    background-color: #ff66c4;
+    color: #ffffff;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff4da6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+.complete {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.delete-btn {
+    margin-left: auto;
+    background-color: #ff66c4;
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #ff4da6;
+}
+
+.clear-all-btn {
+    display: block;
+    margin: 20px auto 0;
+    padding: 12px 40px;
+    background-color: #ff66c4;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.clear-all-btn:hover {
+    background-color: #ff4da6;
+}
